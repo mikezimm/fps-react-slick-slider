@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "fps-react-slick-slider",
+    "libraryId": "f6f447f1-c7fe-4d61-8a10-5627c0c8b24f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "fps-react-slick-slider",
+    "solutionShortDescription": "fps-react-slick-slider description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

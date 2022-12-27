@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fps-react-slick-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fpsReactSlickSlider/FpsReactSlickSliderWebPart.js",
+          "manifest": "./src/webparts/fpsReactSlickSlider/FpsReactSlickSliderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FpsReactSlickSliderWebPartStrings": "lib/webparts/fpsReactSlickSlider/loc/{locale}.js"
+  }
+}

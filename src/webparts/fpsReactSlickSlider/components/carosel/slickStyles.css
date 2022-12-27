@@ -1,0 +1,66 @@
+/* @import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'; */
+
+.sliderContainer {
+  padding: 40px;
+  max-width: 350px;
+}
+
+.fpsSlickContainer {
+
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-dots li button::before {
+  font-size: 16px;
+}
+
+.slick-dots li button:hover {
+}
+
+.fpsSlickContainer img {
+    height: 200px;
+    width: 250px;
+    object-fit: contain;
+
+}
+
+.fpsSlickArrow {
+  padding: 90px 0px;
+  opacity: .2;
+  background: lightgray;
+  -webkit-transition: opacity 0.5s;
+  transition:all 0.7s ease;
+  z-index: 1;
+  width: 70px;
+  cursor: pointer;
+
+}
+
+.fpsSlickArrow:hover {
+  opacity: .7 !important;
+  background: lightgray;
+  -webkit-transition: opacity 0.5s;
+  transition:all 0.7s ease;
+}
+
+
+.fpsSlickArrow i {
+  font-size: 48px;
+  padding: 30px 8px;
+  font-weight: bolder;
+  color: black;
+}
+
+.fpsSlickArrowL {
+  /* left: 50px; */
+}
+
+.fpsSlickArrowR {
+  /* right: 50px; */
+}

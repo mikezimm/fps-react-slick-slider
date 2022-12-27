@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fps-react-slick-slider-client-side-solution",
+    "id": "f6f447f1-c7fe-4d61-8a10-5627c0c8b24f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fps-react-slick-slider description"
+      },
+      "longDescription": {
+        "default": "fps-react-slick-slider description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fps-react-slick-slider Feature",
+        "description": "The feature that activates elements of the fps-react-slick-slider solution.",
+        "id": "46c09f4b-1ab4-4145-bb08-080b1a45f686",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fps-react-slick-slider.sppkg"
+  }
+}
