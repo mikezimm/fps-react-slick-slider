@@ -7,14 +7,6 @@ import PreviousNextMethods from './carosel/SlickClass';
 
 export default class FpsReactSlickSlider extends React.Component<IFpsReactSlickSliderProps, {}> {
   public render(): React.ReactElement<IFpsReactSlickSliderProps> {
-    const {
-      description,
-      isDarkTheme,
-      environmentMessage,
-      hasTeamsContext,
-      userDisplayName
-    } = this.props;
-
     return (
       <div className={`${styles.testFpsTest}`} >
         <PreviousNextMethods 

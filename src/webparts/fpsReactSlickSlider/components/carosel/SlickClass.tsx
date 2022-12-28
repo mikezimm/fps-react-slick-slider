@@ -23,6 +23,9 @@ export interface IReactSlickCaroselHookState {
   current: number;
 }
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 /**
  * Based upon this example
  * https://react-slick.neostack.com/docs/example/previous-next-methods
@@ -34,8 +37,8 @@ export default class PreviousNextMethods extends React.Component<IReactSlickCaro
   constructor(props: IReactSlickCaroselHookProps) {
     super(props);
 
-    SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
-    SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+    // SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+    // SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 
     this.state = {
       current: 2,
