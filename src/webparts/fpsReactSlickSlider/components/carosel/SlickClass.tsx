@@ -73,8 +73,13 @@ export default class PreviousNextMethods extends React.Component<IReactSlickCaro
         </div>
         <div>
           <Slider ref={c => (this.slider = c)} {...settings}>
-            <div key={1}>
+            <div key={1} onClick={ () => window.open( 'http://placekitten.com/g/400/200', '_blank' )} >
               <img src='http://placekitten.com/g/400/200' />
+              <div style={{ color: 'black', background: 'lightYellow' }}>
+                <div>Sub Text</div>
+                <div>Sub Text</div>
+              </div>
+
             </div>
             <div key={2}>
               <img src='https://i.kinja-img.com/gawker-media/image/upload/s---Jp3oE95--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/199zpfi8dig2njpg.jpg' />
