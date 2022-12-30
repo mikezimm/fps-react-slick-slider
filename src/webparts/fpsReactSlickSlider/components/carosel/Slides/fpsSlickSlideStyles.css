@@ -1,0 +1,12 @@
+
+.fpsSlideElement {
+  /* position: absolute; */
+  -webkit-transition: opacity 0.3s;
+  /* transition: opacity 0.5s; */
+  transition:all 0.3s ease;
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+  cursor: pointer;
+  /* Do not add margin if using react-slick slider */
+  /* margin: 10px 40px 10px 40px; */
+}

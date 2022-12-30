@@ -37,9 +37,6 @@ export default class PreviousNextMethods extends React.Component<IReactSlickCaro
   constructor(props: IReactSlickCaroselHookProps) {
     super(props);
 
-    // SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
-    // SPComponentLoader.loadCss('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
-
     this.state = {
       current: 2,
     };
