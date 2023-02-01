@@ -47,8 +47,8 @@ const SlickHook: React.FC<IReactSlickCaroselHookProps> = ( props ) => {
   }
 
   const settings = {
-    dots: false,    //was false
-    // dotsClass: ['fpsSlickDots','slick-dots'].join(' '),
+    dots: true,    //was false
+    dotsClass: ['fpsSlickDots','slick-dots'].join(' '),
     infinite: true,
     arrows: false,
     speed: 500,
